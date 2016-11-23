@@ -214,7 +214,8 @@ For example, to make SPC do the same as ?a, use
   "Face for whole window background during selection.")
 
 (defface avy-goto-char-timer-face
-  '((t (:inherit highlight)))
+  '((t (:foreground "white" :background "#5a5a5a")))
+  ;; '((t (:inherit highlight)))
   "Face for matches during reading chars using `avy-goto-char-timer'.")
 
 (defconst avy-lead-faces '(avy-lead-face
